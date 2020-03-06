@@ -1,0 +1,16 @@
+/*@@layout{"layoutInfo":{"x":-237.6923828125,"y":-6}}*/
+
+Context SalesOrder {
+
+	entity Region {
+	    key id            : Integer;
+        	name          : String(100) not null;
+        	subRegionName : String(100);
+	}
+	
+	entity Product {
+		key id: Integer;
+		name: String(100) not null;
+	}
+	
+}
